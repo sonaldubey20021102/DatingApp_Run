@@ -19,7 +19,7 @@ export class ToastService {
     }
   }
 
-  private createToastElement(message:string,alertClass:string,duration=1000){
+  private createToastElement(message:string,alertClass:string,duration=2000){
     const toastContainer = document.getElementById('toast-container');
     if(!toastContainer) return;
 
